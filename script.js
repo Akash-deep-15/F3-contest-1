@@ -100,8 +100,8 @@ function AwardCeremony(score) {
     let n = sortedArr.length;
 
     console.log(`${sortedArr[n-1]} came first with ${score[sortedArr[n-1]]} points`);
-    console.log(`${sortedArr[n-2]} came first with ${score[sortedArr[n-2]]} points`);
-    console.log(`${sortedArr[n-3]} came first with ${score[sortedArr[n-3]]} points`);
-    console.log(`${sortedArr[n-4]} came first with ${score[sortedArr[n-4]]} points`);
+    console.log(`${sortedArr[n-2]} came second with ${score[sortedArr[n-2]]} points`);
+    console.log(`${sortedArr[n-3]} came third with ${score[sortedArr[n-3]]} points`);
+    console.log(`${sortedArr[n-4]} came fourth with ${score[sortedArr[n-4]]} points`);
 }
 OpeningCeremony(score, Race100M);
